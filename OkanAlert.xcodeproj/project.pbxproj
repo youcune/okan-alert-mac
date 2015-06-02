@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2E7EEAE1B1D82330042EAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E7EEAD1B1D82330042EAA9 /* AppDelegate.swift */; };
+		D2E7EEB01B1D82330042EAA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E7EEAF1B1D82330042EAA9 /* ViewController.swift */; };
+		D2E7EEB21B1D82330042EAA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E7EEB11B1D82330042EAA9 /* Images.xcassets */; };
+		D2E7EEB51B1D82330042EAA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E7EEB31B1D82330042EAA9 /* Main.storyboard */; };
+		D2E7EEC11B1D82330042EAA9 /* OkanAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E7EEC01B1D82330042EAA9 /* OkanAlertTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2E7EEBB1B1D82330042EAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2E7EEA01B1D82330042EAA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E7EEA71B1D82330042EAA9;
+			remoteInfo = OkanAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2E7EEA81B1D82330042EAA9 /* OkanAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OkanAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E7EEAC1B1D82330042EAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E7EEAD1B1D82330042EAA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2E7EEAF1B1D82330042EAA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2E7EEB11B1D82330042EAA9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2E7EEB41B1D82330042EAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2E7EEBA1B1D82330042EAA9 /* OkanAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OkanAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E7EEBF1B1D82330042EAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E7EEC01B1D82330042EAA9 /* OkanAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkanAlertTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2E7EEA51B1D82330042EAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E7EEB71B1D82330042EAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2E7EE9F1B1D82330042EAA9 = {
+			isa = PBXGroup;
+			children = (
+				D2E7EEAA1B1D82330042EAA9 /* OkanAlert */,
+				D2E7EEBD1B1D82330042EAA9 /* OkanAlertTests */,
+				D2E7EEA91B1D82330042EAA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2E7EEA91B1D82330042EAA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2E7EEA81B1D82330042EAA9 /* OkanAlert.app */,
+				D2E7EEBA1B1D82330042EAA9 /* OkanAlertTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2E7EEAA1B1D82330042EAA9 /* OkanAlert */ = {
+			isa = PBXGroup;
+			children = (
+				D2E7EEAD1B1D82330042EAA9 /* AppDelegate.swift */,
+				D2E7EEAF1B1D82330042EAA9 /* ViewController.swift */,
+				D2E7EEB11B1D82330042EAA9 /* Images.xcassets */,
+				D2E7EEB31B1D82330042EAA9 /* Main.storyboard */,
+				D2E7EEAB1B1D82330042EAA9 /* Supporting Files */,
+			);
+			path = OkanAlert;
+			sourceTree = "<group>";
+		};
+		D2E7EEAB1B1D82330042EAA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2E7EEAC1B1D82330042EAA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2E7EEBD1B1D82330042EAA9 /* OkanAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2E7EEC01B1D82330042EAA9 /* OkanAlertTests.swift */,
+				D2E7EEBE1B1D82330042EAA9 /* Supporting Files */,
+			);
+			path = OkanAlertTests;
+			sourceTree = "<group>";
+		};
+		D2E7EEBE1B1D82330042EAA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2E7EEBF1B1D82330042EAA9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2E7EEA71B1D82330042EAA9 /* OkanAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E7EEC41B1D82330042EAA9 /* Build configuration list for PBXNativeTarget "OkanAlert" */;
+			buildPhases = (
+				D2E7EEA41B1D82330042EAA9 /* Sources */,
+				D2E7EEA51B1D82330042EAA9 /* Frameworks */,
+				D2E7EEA61B1D82330042EAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OkanAlert;
+			productName = OkanAlert;
+			productReference = D2E7EEA81B1D82330042EAA9 /* OkanAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2E7EEB91B1D82330042EAA9 /* OkanAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E7EEC71B1D82330042EAA9 /* Build configuration list for PBXNativeTarget "OkanAlertTests" */;
+			buildPhases = (
+				D2E7EEB61B1D82330042EAA9 /* Sources */,
+				D2E7EEB71B1D82330042EAA9 /* Frameworks */,
+				D2E7EEB81B1D82330042EAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E7EEBC1B1D82330042EAA9 /* PBXTargetDependency */,
+			);
+			name = OkanAlertTests;
+			productName = OkanAlertTests;
+			productReference = D2E7EEBA1B1D82330042EAA9 /* OkanAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2E7EEA01B1D82330042EAA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Yu Nakanishi";
+				TargetAttributes = {
+					D2E7EEA71B1D82330042EAA9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D2E7EEB91B1D82330042EAA9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D2E7EEA71B1D82330042EAA9;
+					};
+				};
+			};
+			buildConfigurationList = D2E7EEA31B1D82330042EAA9 /* Build configuration list for PBXProject "OkanAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2E7EE9F1B1D82330042EAA9;
+			productRefGroup = D2E7EEA91B1D82330042EAA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2E7EEA71B1D82330042EAA9 /* OkanAlert */,
+				D2E7EEB91B1D82330042EAA9 /* OkanAlertTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2E7EEA61B1D82330042EAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E7EEB21B1D82330042EAA9 /* Images.xcassets in Resources */,
+				D2E7EEB51B1D82330042EAA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E7EEB81B1D82330042EAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2E7EEA41B1D82330042EAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E7EEB01B1D82330042EAA9 /* ViewController.swift in Sources */,
+				D2E7EEAE1B1D82330042EAA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E7EEB61B1D82330042EAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E7EEC11B1D82330042EAA9 /* OkanAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2E7EEBC1B1D82330042EAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2E7EEA71B1D82330042EAA9 /* OkanAlert */;
+			targetProxy = D2E7EEBB1B1D82330042EAA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2E7EEB31B1D82330042EAA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E7EEB41B1D82330042EAA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2E7EEC21B1D82330042EAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2E7EEC31B1D82330042EAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2E7EEC51B1D82330042EAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OkanAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2E7EEC61B1D82330042EAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OkanAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2E7EEC81B1D82330042EAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OkanAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OkanAlert.app/Contents/MacOS/OkanAlert";
+			};
+			name = Debug;
+		};
+		D2E7EEC91B1D82330042EAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OkanAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OkanAlert.app/Contents/MacOS/OkanAlert";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2E7EEA31B1D82330042EAA9 /* Build configuration list for PBXProject "OkanAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E7EEC21B1D82330042EAA9 /* Debug */,
+				D2E7EEC31B1D82330042EAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E7EEC41B1D82330042EAA9 /* Build configuration list for PBXNativeTarget "OkanAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E7EEC51B1D82330042EAA9 /* Debug */,
+				D2E7EEC61B1D82330042EAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2E7EEC71B1D82330042EAA9 /* Build configuration list for PBXNativeTarget "OkanAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E7EEC81B1D82330042EAA9 /* Debug */,
+				D2E7EEC91B1D82330042EAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2E7EEA01B1D82330042EAA9 /* Project object */;
+}
