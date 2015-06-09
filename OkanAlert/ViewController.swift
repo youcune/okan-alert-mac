@@ -9,7 +9,7 @@
 import Cocoa
 import Starscream
 
-class ViewController: NSViewController, WebSocketDelegate {
+class ViewController: NSViewController, WebSocketDelegate, NSUserNotificationCenterDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +28,9 @@ class ViewController: NSViewController, WebSocketDelegate {
         }
     }
 
+    // ---------------------------------------------------------------
+    // WebSocketDelegate
+    // ---------------------------------------------------------------
     func websocketDidConnect(socket: WebSocket) {
         println("websocket is connected")
         socket.writeString("Hi Server!")
@@ -38,10 +41,31 @@ class ViewController: NSViewController, WebSocketDelegate {
     }
     
     func websocketDidReceiveMessage(socket: WebSocket, text: String) {
-        println("got some text: \(text)")
+        if (text == "ALERT") {
+            notify("【警報】避難体勢を取ってください！", image: "alert.png")
+        }
+        else if (text == "OK") {
+            notify("周囲は安全な状態です。", image: "ok.png")
+        }
     }
     
     func websocketDidReceiveData(socket: WebSocket, data: NSData) {
         println("got some data: \(data.length)")
+    }
+    
+    // ---------------------------------------------------------------
+    // NSUserNotificationCenterDelegate
+    // ---------------------------------------------------------------
+    func applicationWillTerminate(aNotification: NSNotification) {
+        // Insert code here to tear down your application
+    }
+    
+    func notify(text: String, image: String) {
+        NSUserNotificationCenter.defaultUserNotificationCenter().delegate = self
+        let notification = NSUserNotification()
+        notification.title = "OkanAlert"
+        notification.informativeText = text
+        notification.contentImage = NSImage(named: image)
+        NSUserNotificationCenter.defaultUserNotificationCenter().deliverNotification(notification)
     }
 }
