@@ -41,11 +41,15 @@ class ViewController: NSViewController, WebSocketDelegate, NSUserNotificationCen
     }
     
     func websocketDidReceiveMessage(socket: WebSocket, text: String) {
+        println("RECEIVED: " + text)
         if (text == "ALERT") {
             notify("【警報】避難体勢を取ってください！", image: "alert.png")
         }
         else if (text == "OK") {
             notify("周囲は安全な状態です。", image: "ok.png")
+        }
+        else {
+            println("RECEIVED UNKNOWN STATUS: " + text)
         }
     }
     
